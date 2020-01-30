@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>经典海投“转化CPC调价”答疑专题</title>
+  
+<link rel="stylesheet"          href="/study/r/cms/www/learn_new/css/public.dev.css">
+<link rel="stylesheet"          href="/study/r/cms/www/learn_new/css/jquery-ui.css">
+<link rel="stylesheet"          href="/study/r/cms/www/learn_new/css/font.css">
+
+<script type="text/javascript" src="/study/r/cms/www/learn_new/js/jquery.min.js"></script>
+  <script src="/study/r/cms/jquery.js" type="text/javascript"></script>
+  <script type="text/javascript" src="/study/r/cms/www/learn_new/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/study/r/cms/www/learn_new/js/html5shiv.js"></script>
+  <script type="text/javascript" src="/study/r/cms/www/learn_new/js/common.js"></script>   
+  <script src="/study/r/cms/front.js" type="text/javascript"></script>
+  
+    
+    <script type="text/javascript" src="/study/r/cms/www/learn_new/js/jquery-ui.js"></script>
+<!--9.2.2019 djk-->
+<!-- <script src="//static-alias-1.360buyimg.com/jzt/common/js/monitor/webMonitor-v1.3.js"></script> -->
+
+<script>
+  var lessThanIE9 = function () {
+    var UA = navigator.userAgent;
+    var isIE = UA.indexOf('MSIE') > -1;
+    var v = isIE ? /\d+/.exec(UA.split(';')[1]) : 11;
+    return v < 10;
+  }
+  var script = document.createElement("script");
+  script.type = "text/javascript";
+  script.src = '//static-alias-1.360buyimg.com/jzt/common/js/monitor/webMonitor-v1.3.js';
+  if (!lessThanIE9()) {
+      // console.log(987)
+    document.getElementsByTagName('head')[0].appendChild(script);
+  }
+</script>
+<script type="text/javascript">
+$(function() {
+	  Cms.siteFlow("/study",location.href, document.referrer);
+	});
+</script>
+  <script type="text/javascript">
+  base="/study";
+</script>
+
+<script type="text/javascript">
+$(function() {
+Cms.attachment("/study","1919","0","attach");
+Cms.viewCount("/study","1919");
+});
+</script>  
+  <link rel="stylesheet" href="/study/r/cms/www/learn_new/css/public.investigation_form.css">
+  <script type="text/javascript" src="/study/r/cms/www/learn_new/js/script.js"></script>
+  <script type="text/javascript" src="/study/r/cms/www/learn_new/js/moment.min.js"></script>
+  <!--    liumengmeng
+  <link rel="stylesheet" href="../css/public.dev.css">
+  <script type="text/javascript" src="../js/jquery.min.js"></script>
+  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../js/html5shiv.js"></script>
+  -->
+</head>
+
+<body>
+
+<script type="text/javascript">
+$(function() {
+  //导航条下拉框
+  $(".nav-menu").hover(function() {
+    $(".bg-blue1").show();
+  }, function() {
+    $(".bg-blue1").hide();
+  });
+
+  //搜索框样式
+  $(".text").focus(function(event) {
+    $(this).parents(".tableLayout").addClass('search-blue');
+  }).blur(function(event) {
+    $(this).parents(".tableLayout").removeClass('search-blue');
+  });
+
+});
+</script>
+<div class="logowrap">
+
+<div class="wrapper relative" style="overflow: visible;">
+           <!-- 未登录的头部 -->
+        <dl class="noLogin box">
+            <dt class="blue">Hi~<a class="blue"  href="javascript:void(0);"  id="logBtn" >欢迎登录</a></dt>
+            <dt><a href="//jzt.jd.com/" target="_blank" class="blue">立即入驻</a></dt>
+      		<!--  <dt><a href="javascript:void(0);"  class="white6 syguide"><span class="icon"></span>使用向导</a></dt>-->
+      		<!--<dd><a href="">联盟群英会<span class="icon"></span></a></dd>-->
+      		<dd><a href="//jzt.jd.com/study/charging/index.jhtml" target="_blank">帮助中心</a></dd>
+      		<dd>
+        <a href="javascript:void(0);" target="_blank" class="nav-tr relative">营销产品<span class="icon-arrowB ml5"></span></a>
+        <div class="proList">
+          <a href="//jzt.jd.com/gw/jdkchome/index.jhtml" target="_blank">京东快车</a>
+          <!--  <a href="">京东直投</a>-->
+          <a href="//jzt.jd.com/gw/jxzwhome/index.jhtml" target="_blank">京选展位</a>
+          <a href="//jzt.jd.com/gw/jtkhome/index.jhtml" target="_blank">京挑客</a>
+          <!--<a href="//jzt.jd.com/gw/dmphome/index.jhtml">DMP</a>-->
+        </div>
+      </dd>
+      		<dd><a href="//jzt.jd.com/gw/" target="_blank">京准通官网</a></dd>
+           <dd><a href="//jzt.jd.com/gw/kcenter/html/home.html" target="_blank">体验中心</a></dd>
+        </dl>
+        <!-- END 未登录的头部-->
+  </div>
+  
+  <!-- END nav -->
+  
+   <div class="pushBox"  id="loginPush">
+    <div class="msk-bg"></div>
+    <div class="loginBox">
+    <span class="pb-close"></span>
+        <h3 class="pb-tit">登录京东账户</h3>
+        <a href="//reg.jd.com/reg/person?ReturnUrl=https://jzt.jd.com/study/haitouusual/1919.jhtml" target="_blank" class="link-reg">我要注册&gt;</a>
+            <iframe src="//passport.jd.com/common/loginPage?from=jzt&ReturnUrl=https://jzt.jd.com/study/haitouusual/1919.jhtml" style="width:360px;height: 260px;" scrolling="no" frameborder="0">
+            </iframe>
+    </div>
+   </div>
+ <script>
+ $(function(){
+	 $("#logBtn").click(function () {
+		 
+	     $(".pushBox").fadeIn();
+	 });
+	 
+	 $("#logBtn1").click(function () {
+		
+		 $(".pushBox").fadeIn();
+	 });
+	 
+	 $('.pb-close').click(function(){
+	     $('#loginPush').hide();
+	});
+	 
+ 
+ //模态框对应的js操作
+ $("#motai_login").click(function () {
+	 
+	 $('.loginBox').css({ 
+		 position:'absolute', 
+		 left: ($(window).width() - $('.loginBox').outerWidth())/2, 
+		 top: ($(window).height() - $('.loginBox').outerHeight())/2 + $(document).scrollTop()
+		 }); 
+	 
+	 $('#s6').modal('hide');
+     $(".opcBox").fadeIn();
+ });
+ 
+ 
+ 
+ });
+ 
+ </script>  
+</div>
+<div class="wrapper-head relative">
+  <div class="wrapper-con">
+    <a class="logo" href="//jzt.jd.com/gw/" target="_blank"></a>
+    <!-- <a class="logo1" href="/study/index.jhtml"></a> -->
+   <div class="pull-right">
+    <!-- 导航条开始 -->
+    <div class="wrapper-nav">
+
+      <ul>
+        <li class="">
+          <a href="/study/index.jhtml">首页 <span class="icon circle"></span></a>
+        </li>
+        	        		<li class="nav-menu cur">
+	        			<a href="https://jzt.jd.com/study/jingzhuntong/index.jhtml" class="navlink">自学教程<span class="icon circle"></span></a>
+	        				<ul class="drop-menu">
+			                       				<li><a href="https://jzt.jd.com/study/jingzhuntong/index.jhtml">走进京准通</a></li>
+			                       				<li><a href="https://jzt.jd.com/study/kuaicheproduct/index.jhtml">京东快车</a></li>
+			                       				<li><a href="https://jzt.jd.com/study/jingdongbrand/index.jhtml">京东展位</a></li>
+			                       				<li><a href="https://jzt.jd.com/study/haitou/index.jhtml">京东海投</a></li>
+			                       				<li><a href="https://jzt.jd.com/study/gwcd/index.jhtml">购物触点</a></li>
+			                       				<li><a href="https://jzt.jd.com/study/jingsouke/index.jhtml">京搜客</a></li>
+			                       				<li><a href="https://jzt.jd.com/study/POPtoufang/index.jhtml">付佣广告</a></li>
+			                       				<li><a href="//jzt.jd.com/edu/edu_home.shtml" target="_blank">京东直投</a></li>
+			                       				
+			                       				<li><a href="https://jzt.jd.com/study/dmp1/index.jhtml">DMP</a></li>
+		                       	<li><a href="https://jzt.jd.com/study/jingzhuntong/index.jhtml" target="_blank" >更多产品</a></li>
+		                    </ul> 
+	                </li>
+	        		<li class="nav-menu">
+	        			<a href="https://jzt.jd.com/study/online/index.jhtml" class="navlink">京点书院<span class="icon circle"></span></a>
+	        				<ul class="drop-menu">
+			                       				<li><a href="https://jzt.jd.com/study/online/index.jhtml">在线视频</a></li>
+			                       				<li><a href="https://jzt.jd.com/study/dissertation/index.jhtml">专题活动</a></li>
+			                       				<li><a href="https://jzt.jd.com/study/monthly/index.jhtml">京准通月刊</a>
+		                    </ul> 
+	                </li>
+        <li class=""><a href="http://mjbbs.jd.com/forum-96-1.html" target="_blank">论坛  <span class="icon circle"></span>                  </a>
+        </li>
+      </ul>
+      <div class="bg-blue1" style="position:absolute; top:80px; left:0;"></div>
+
+    <!-- 导航条结束 -->    </div>
+    <!-- 导航条结束 -->
+    <!-- 搜索框开始 -->
+    <!-- 导入搜索框页面  -->
+<script>
+//delay延迟时间（毫秒）
+$(function() {
+	$("input[name=q]").autocomplete({
+		
+		 source: "/study/search/v_ajax_list.jspx",
+		 appendTo: "#resultsautocom",
+		    open: function() {
+		        var position = $("#resultsautocom").position(),
+		            left = position.left, top = position.top;
+
+		        $("#resultsautocom > ul").css({left: (left + 13) + "px",
+		                                top: (top + 2) + "px" });
+
+		    },
+		 minLength: 2,
+		 max:5,
+		 //max-items:5,
+		 delay:400,
+		 scrollHeight: 200, //表示列表显示高度,默认高度为180 
+		 autoFocus: true,
+		 position: { my: "left bottom", at: "left top", collision: "flip" },
+		 select: function(e, ui) {
+			 $("input[name='q']").val(ui.item.value);
+			 $("#searchForm").submit();
+		 }
+	});
+	$(".hotsearch-icon a").hover(function(){
+		$('.hot-tips').show();
+	},function(){
+		$('.hot-tips').hide();
+	});
+	$(".text").focus(function(event) {
+		$(this).parents(".tableLayout").addClass('search-blue');
+	}).blur(function(event) {
+		$(this).parents(".tableLayout").removeClass('search-blue');
+	});
+});
+function qkeypress(){
+	var q=$("input[name=q]");
+	if(q.val().trim()!=""){
+		$("input[name=q]").autocomplete("enable");
+	}else{
+		$("input[name=q]").autocomplete("disable");
+	}
+}
+</script>
+
+      <form  class="tableLayout" action="/study/search.jspx"  id="searchForm" onsubmit="return beforeSearch();">
+	        <div style="display: table;width: 100%;">
+	        <div class="tableCell">
+		        <input type="text" name="q" class="text" value="请输入你想要解决的问题" 
+	                onfocus="if(this.value=='请输入你想要解决的问题')this.value='';if(this.className=='text') this.className='text1';" 
+	                onblur="if(this.value=='')this.value='请输入你想要解决的问题';if(this.className=='text1') this.className='text';"
+	                autocomplete="off" clstag="pageclick|keycount|menu_201610113|7"    onkeypress="qkeypress()"/>
+	                <div id="resultsautocom"></div>
+	      </div>
+	      <div class="tableCell">
+	       <a href class="btn">
+	         <input type="submit" value="" class="icon icon-search" clstag="pageclick|keycount|menu_201610113|8"  />
+	         <input type="hidden" id="basePath" value="/study"/>
+	        </a>  
+	        
+	      </div>
+	      </div>
+      </form>
+	<div class="hotsearch-icon">
+		<a href="/study/search/seopage.jspx" clstag="pageclick|keycount|ranklist_1548229981222|1"></a>
+		<div class="hot-tips">
+			<em></em><span></span>搜索排行榜
+		</div>
+	</div>
+
+    <!-- 搜索框结束 -->
+    </div>
+  </div>
+</div>
+
+<!-- 主体内容开始 -->
+<div class="bg-grayf4 pt30 pb80">
+  <div class="wrapper">
+    <div class="wrapper-nei">
+      <!-- 左侧开始 -->
+      <div class="wrapper-big">
+        <!-- 面包屑导航 -->
+        <div class="breadcrumb">
+<div class="breadcrumb">
+     
+     	      <span><a href="https://jzt.jd.com/study/jingzhuntong/index.jhtml" type="channel" id="79">自学教程</a></span>
+	      <i>></i> 
+	      <span><a href="https://jzt.jd.com/study/haitou/index.jhtml" type="channel" id="376">京东海投</a></span>
+	      <i>></i> 
+	      <span><a href="https://jzt.jd.com/study/haitouusual/index.jhtml" type="channel" id="382">常用功能</a></span>
+	          <!-- 若为内容页面 -->
+      >
+      <a href="https://jzt.jd.com/study/haitouusual/1919.jhtml">经典海投“转化CPC调价”答疑专题</a>
+</div>        </div>
+        <article>
+          <!-- 文章标题 -->
+          <header class="page-title bdt1-gray">
+            <h1>经典海投“转化CPC调价”答疑专题</h1>
+            <div class="page-icon">
+              <span><i class="icon time"></i>2019-10-29</span>
+              <span><i class="icon num"></i><i id="isUsefuls"></i></span>
+              <span><i class="icon look"></i><i id="views"></i>人观看过</span>
+            </div>
+          </header>
+          <!-- 主体内容 -->
+          <div class="page-con">
+            <p><span style="font-size:16px;"><strong><span style="background-color:#00ffff;">功能简介：</span></strong></span></p>
+<p><span style="font-size:14px;">1、转化CPC调价是什么？</span></p>
+<p><span style="font-size:14px;">答：转化CPC调价功能，是京东海投-经典海投计划<strong>以优化ROI、提升订单金额为目标的智能调价的功能</strong>。</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size:16px;"><strong><span style="background-color:#00ffff;">使用门槛相关：</span></strong></span></p>
+<p><span style="font-size:14px;">2、转化CPC调价是所有商家都可用的吗？</span></p>
+<p><span style="font-size:14px;">答：因系统优化需要有一定的点击下单积累，保证模型预估的准确性。因此该功能存在使用门槛要求： 近3天经典海投累计点击量达到1000个，系统会在第4天为您激活&ldquo;转化CPC调价&rdquo;功能使用权限。当累计点击量不足1000个，该功能现为不可见状态。功能一旦激活，则持续开放，不会因暂停或减少投放而消失。</span></p>
+<p><span style="font-size:14px;">如您已有使用权限，但近期投放很少（低于3天累计1000点击的门槛水平），系统的优化能力也有限。如开启，下单积累较少时，系统会保守溢价甚至直接按照您的默认出价竞价。</span></p>
+<p><span style="font-size:14px;">因此：如与门槛水平（3天累计1000点击）差距较大，不建议使用。如果接近门槛水平，可开启，建议适当延长观察时间（&gt;7天）。</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size:14px;">3、我的账号海投计划每天只有几十个点击，是否建议某3天突击达到1000个开启该功能？功能的效果是否受到影响？</span></p>
+<p><span style="font-size:14px;">答：如果无法保证连续高于门槛水平（3天累计1000点击）的投放，不建议突击开启权限。因为如您投放很少，系统用于模型训练的数据有限，效果可能存在较大波动。因此：如与门槛水平（3天累计1000点击）差距较大，不建议使用。如果接近门槛水平，可开启，建议适当延长观察时间（&gt;7天）。</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size:14px;">4、已有使用权限的账号，暂停一段时间海投后，重新开启。是否需要达到1000点击后再开启&ldquo;转化CPC调价功能&rdquo;？</span></p>
+<p><span style="font-size:14px;">答：暂停一段时间，导致近3天累计点击量不足1000的，重新恢复海投投放后：建议达到门槛水平（3天内累计1000点击），再开启该功能。</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size:16px;"><strong><span style="background-color:#00ffff;">适用商家</span></strong></span></p>
+<p><span style="font-size:14px;">5、转化CPC调价适合哪些商家？</span></p>
+<p><span style="font-size:14px;">答：对绝大部分商家都能起到提升转化的正向效果。特别适合产品转化周期短（也就是t+1天内能够产生大量转化）的商家。</span></p>
+<p><span style="font-size:14px;">特殊场景：</span></p>
+<p><span style="font-size:14px;">a、有预购商品的店铺开启后：</span></p>
+<p style="margin-left:36.0000pt;"><span style="font-size:14px;">&bull;&nbsp;<strong>常规sku及定金预售sku</strong>不影响</span></p>
+<p style="margin-left:36.0000pt;"><span style="font-size:14px;">&bull;&nbsp;<strong>预购sku</strong>流量可能减少，建议通过其它产品线补充预购sku流量。</span></p>
+<p style="margin-left:18.0000pt;"><span style="font-size:14px;"><strong>原因：</strong>&ldquo;转化CPC调价&rdquo;是优化下单的智能调价功能：</span></p>
+<p style="margin-left:36.0000pt;"><span style="font-size:14px;">&bull;&nbsp;<strong>定金预售：</strong>支付定金即正常产生订单，不受影响。</span></p>
+<p style="margin-left:36.0000pt;"><span style="font-size:14px;">&bull;&nbsp;<strong>预购商品</strong>：预购仅获得购买资格，不产生订单，无cvr转化，影响流量获取。</span></p>
+<p style="margin-left:36.0000pt;">&nbsp;</p>
+<p><span style="font-size:14px;">b、三级类目多、各类目订单量均很少的商家（如每个三个类目只有几个订单）不适用。</span></p>
+<p><span style="font-size:14px;">原因：模型优化需要数据积累，当每个三级类目都面临历史数据积累少的问题，系统优化较困难。如果三级类目多，但每个类目下投放量很大，是可以正常使用的。</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size:16px;"><strong><span style="background-color:#00ffff;">基础出价和转化CPC调价的关系</span></strong></span></p>
+<p><span style="font-size:14px;">6、转化CPC调价与分时段折扣、类目特殊出价等是怎样的关系？</span></p>
+<p><span style="font-size:14px;">答：不冲突，在分时段折扣、类目特殊出价等计算得出的CPC基础上，按商家填写的&ldquo;溢价系数上限&rdquo;，在【0-溢价上限】范围内进行CPC智能调价。</span></p>
+<p><span style="font-size:14px;">定义：分时段折扣、类目特殊出价等计算得出的CPC，以下简称为基础出价。</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size:14px;">7、开启转化CPC调价是不是就不用调整基础出价了？</span></p>
+<p><span style="font-size:14px;">答：谨记核心原则：基础出价决定流量多少，转化CPC调价决定流量结构(优选高预估转化率流量，提升转化)</span></p>
+<p><span style="font-size:14px;">开启&ldquo;转化CPC调价&rdquo;&ne; 调整基础出价。</span></p>
+<p><span style="font-size:14px;"><img alt="" src="http://storage.jd.com/jtz.file.cloudy/201905/281050332b85.png" style="width: 676px; height: 169px;" /></span></p>
+<p><span style="font-size:14px;">基础出价的优化，仍是商家需重点关注的核心操作。希望获得更多的流量，核心还是要提高基础出价。</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size:14px;">8、其他同质性问题：</span></p>
+<p><span style="font-size:14px;">希望扩展海投流量，大促抢量，不提高基础出价，开启转化CPC调价行不行？</span></p>
+<p><span style="font-size:14px;">开启&ldquo;转化CPC调价&rdquo;后，是否可以把出价调低，填写很高的溢价上限？或者出价很高，填写很低的溢价上限？</span></p>
+<p><span style="font-size:14px;">提高基础出价后，本身已经获取到更高流量了，是否还要开启&ldquo;转化CPC调价&rdquo;？</span></p>
+<p><span style="font-size:14px;">答：核心原则：基础出价决定流量多少，转化CPC调价决定流量结构(优选高预估CVR流量，提升转化)。</span></p>
+<p><span style="font-size:14px;">想要获取更多流量&mdash;&mdash;提高基础出价。618大促，日常希望拓展流量，该提高出价还是提高出价。</span></p>
+<p><span style="font-size:14px;">想要提升转化&mdash;&mdash;转化CPC调价，溢价上限越高，越容易获得精准流量。</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size:16px;"><strong><span style="background-color:#00ffff;">设置项：</span></strong></span></p>
+<p><span style="font-size:14px;">9、选择不同的出价偏好有什么不同？</span></p>
+<p><span style="font-size:14px;">答：</span></p>
+<table border="1" cellpadding="0" cellspacing="0" style="width:750px;" width="0">
+	<tbody>
+		<tr>
+			<td style="width:146px;height:51px;">
+				<p><span style="font-size:16px;"><strong>3</strong><strong>种出价偏好可选</strong></span></p>
+			</td>
+			<td style="width:205px;height:51px;">
+				<p><span style="font-size:16px;"><strong>解决商家痛点</strong></span></p>
+			</td>
+			<td style="width:278px;height:51px;">
+				<p><span style="font-size:16px;"><strong>预期效果</strong></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:146px;height:48px;">
+				<p><span style="font-size:16px;"><strong>获取更高的ROI</strong></span></p>
+			</td>
+			<td style="width:205px;height:48px;">
+				<p><span style="font-size:14px;">ROI不高，希望重点提升ROI</span></p>
+			</td>
+			<td style="width:278px;height:48px;">
+				<p><span style="font-size:14px;">明显提升ROI，订单金额持平或微降</span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:146px;height:62px;">
+				<p><span style="font-size:16px;"><strong>获取更多的订单金额</strong></span></p>
+			</td>
+			<td style="width:205px;height:62px;">
+				<p><span style="font-size:14px;">店铺缺乏流量，期望重点扩大销量</span></p>
+			</td>
+			<td style="width:278px;height:62px;">
+				<p><span style="font-size:14px;">快速抢量提高订单金额，ROI持平或微降</span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:146px;height:62px;">
+				<p><span style="font-size:16px;"><strong>兼顾订单金额和ROI</strong></span></p>
+			</td>
+			<td style="width:205px;height:62px;">
+				<p><span style="font-size:14px;">希望ROI及销量兼顾提升</span></p>
+			</td>
+			<td style="width:278px;height:62px;">
+				<p><span style="font-size:14px;">ROI、订单金额都增加，是一种兼顾ROI和订单金额提升的中和方案</span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p>&nbsp;</p>
+<p><br />
+	<span style="font-size: 14px;">10、什么是溢价系数上限？如果我设置50%，我的点击成本会提升50%吗？</span></p>
+<p><span style="font-size:14px;">答：</span><span style="font-size: 14px;">溢价上限是商家授权平台所能进行的最高溢价（可设置的区间范围为30%-300%），最高溢价&ne;实际平均扣费。举例：CPC基础出价1元，设置溢价系数50%，系统会根据预估流量转化率，在0-1.5元区间进行出价。</span></p>
+<p><span style="font-size: 14px;">在实际使用转化CPC调价功能过程中，有些小伙伴并不理解溢价上限这个概念，误以为溢价50%就等于实际平均扣费单价会提升50%，其实并不是这样。溢价上限是代表着商家授权平台所能出的最高价。每次竞价的实际出价，是根据用户</span></p>
+<p><span style="font-size: 14px;">在这个商品下的预估转化率决定的，转化概率高就出高价，转化概率低就出低价甚至不出价。竞价成功后，按二价计费。因此，开启转化CPC调价后实际扣费CPC可能提高，也可能下降。但一定低于溢价上限。</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-size:14px;">11、溢价上限出多少合适？溢价上限值的高低有什么影响？30%、100%和300%差别大吗？</span></p>
+<p><span style="font-size:14px;">答：</span></p>
+<p><span style="font-size:14px;">1）溢价上限初始建议设置在100%。</span></p>
+<p><span style="font-size:14px;">2）溢价上限设置越高，越有利于抢到最精准的流量，但相对的成本提升也会更高些。需要您在精准流量和成本之间进行权衡。此处需要澄清一些常见误区：</span></p>
+<ul style="list-style-type:square;">
+	<li>
+		<span style="font-size:14px;">有些商家担心，系统会不会给我溢价太高，导致我花2元买到原本1元就能买到的流量。&mdash;&mdash;这个担心完全没必要，因为RTB广告是二价计费的，您的实际扣费根据排在您下一位的商家确定的，第二名出价低自然您扣费也会低。</span></li>
+	<li>
+		<span style="font-size:14px;">有些商家担心，即使最精准的流量，溢价到太高我也买不起了。&mdash;&mdash;这就是溢价上限的价值，决定了cpc调价的上限。您可以根据单个点击能接受的最高CPC成本设置溢价上限。可以适当放宽些，毕竟只有部分流量会调高出价，还有部分流量是降低出价的，最终实际CPC并不会达到您的溢价上限。</span></li>
+</ul>
+<p><span style="font-size:14px;">3）针对第3个问题：</span></p>
+<p><span style="font-size:14px;">先讲原理：简化来讲，对于不同流量，系统预估CVR模型会计算出一个溢价值（以下简称系统溢价值），如果系统溢价值&lt;商家设定溢价上限，按系统溢价值调价。如系统溢价值&gt;商家设定溢价上限，按商家设定的溢价上限调价。</span><span style="font-size: 14px;">从整体盘面来看，约75%的流量，系统溢价值是低于100%的。也就是说对这部分流量100%和300%并无区别。系统溢价值&gt;100%的流量约25%，如果您设置溢价上限为100%就只能以100%溢价，一定程度上限值在这部分流量的竞争力。商家可以在自身接受程度范围内，酌情提升溢价上限。溢价上限设为30%就偏低了，给到系统调价的空间有限，优化效果也有限。</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size:14px;">12、功能使用中的注意事项？</span></p>
+<p><span style="font-size:14px;">答：</span></p>
+<p><span style="font-size:14px;">1）请勿频繁开关功能：该功能一旦关闭，历史积累的AB效果数据都会消失，开启后需要重新积累。</span></p>
+<p><span style="font-size:14px;">2）请勿修改出价偏好、修改溢价系数。建议您至少积累7天以上数据，再进行操作决策，避免数据量小时，偶然的数据波动造成误判。</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size:16px;"><strong><span style="background-color:#00ffff;">效果评估</span></strong></span></p>
+<p><span style="font-size:14px;">13、AB流量分组对比数据是什么意思？</span></p>
+<p><span style="font-size:14px;">答：</span></p>
+<ul>
+	<li>
+		<span style="font-size:14px;">大家都知道，按功能开启前后对比，容易受到不同日期/不同促销水平/大盘竞争变化等干扰因素影响，导致效果评估并不科学。</span></li>
+	<li>
+		<span style="font-size:14px;">&ldquo;转化CPC调价&rdquo;突破性支持&ldquo;AB流量分组对比数据&rdquo;：即：从大盘流量中，随机切出20%流量不生效该调价功能，与80%智能调价的流量效果进行对比，大大提高效果评估准确性（数据见图2）。数据口径是T+1点击跟单口径（也就是说，为了尽快让您看到数据，AB对照数据只统计了t+1的跟单）</span></li>
+</ul>
+<p style="margin-left:21.0pt;"><span style="font-size:14px;"><img alt="" src="http://storage.jd.com/jtz.file.cloudy/201905/28105122uzf9.png" style="width: 500px; height: 320px;" /></span></p>
+<ul>
+	<li>
+		<span style="font-size:14px;">也请大家注意：数据量过少时偶然性很强，建议您至少查看7天以上累计数据，请勿频繁开关功能、修改出价偏好、修改溢价系数。如开启超过7天仍提示 &ldquo;积累订单较少，数据可能不置信，建议延长观察时间&rdquo;，请检查是否预算设置过低，基础出价过低，影响流量获取。</span></li>
+	<li>
+		<span style="font-size:14px;">错误示范：有些商家很心急，今天刚开启，隔两天看下效果不理想就马上改出价偏好，改溢价系数。最后调了一圈，每次都只持续一天两天，根本看不出效果。做了大量工作，一点好处都没有。</span></li>
+	<li>
+		<span style="font-size:14px;">对比数据查看入口：</span></li>
+</ul>
+<p style="margin-left:21.0pt;"><img alt="" src="http://storage.jd.com/jtz.file.cloudy/201905/28105141lhyj.png" style="width: 500px; height: 82px;" /></p>
+<p style="margin-left:21.0pt;"><img alt="" src="http://storage.jd.com/jtz.file.cloudy/201905/28105150zlpk.png" style="width: 500px; height: 423px;" /></p>
+<p>&nbsp;</p>
+<p><span style="font-size:14px;">14、转化CPC调价功能开启完成设置后，多长时间能够看到效果？</span></p>
+<p><span style="font-size:14px;">答：因效果数据口径为t+1点击口径（即今天开启，最早后天产生数据，个别情况下会延迟一天）。请勿频繁修改目标及溢价系数，待7天左右观察推广效果后再适当做一些微调。</span></p>
+<p><span style="font-size:14px;">千万注意：一旦关闭转化CPC功能，积累的效果数据将全部清空，再次开启需重新积累。建议持续开启。对调价功能需求较小时，调低溢价系数即可。</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size:14px;">15、能否提供&ldquo;成交口径&rdquo;的AB流量分组对比数据。</span></p>
+<p><span style="font-size:14px;">答：目前暂不支持成交口径，因为流量是随机按20%：80%分的，所以成交订单/下单订单的比例是基本稳定的，参考下单口径数据基本是OK的。且转化CPC调价功能，模型会参考订单成交率因素，即减少容易撤单的流量，是有利于提升成交订单的。</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size:14px;">16、开启&ldquo;转化CPC调价&rdquo;后，展现和点击均有微降，CPC成本变高了，这个功能不好？<br />
+	答：先举一个最简单的例子，有100块钱，<br />
+	开启&ldquo;转化CPC调价&rdquo;前：购买50个点击，CPC2元，总消耗100元，订单金额600，ROI=600/100=6<br />
+	开启&ldquo;转化CPC调价&rdquo;后：购买40个点击，CPC2.5元，总消耗100元，订单金额700，ROI=700/100=7<br />
+	您选择哪个?<br />
+	仍是反复强调的核心原则：基础出价决定流量多少，转化CPC调价决定流量结构(优选高预估CVR流量，提升转化)。转化CPC是帮您精挑细选优质流量的，因为淘汰掉部分预估转化率低的流量，可能反而看起来展现和点击量会略微减少，CPC成本也有上涨。但真正应该核心关注的是：流量的转化效果（订单量，订单金额，ROI）。花相同的广告费，卖出更多的销量，有更高的投资回报率（ROI），即使点击成本提高，也是更合算的。&nbsp;</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size:14px;">17、选择&ldquo;获取更多订单金额&rdquo;，虽然gmv提升了，但是ROI降了，是否说明这个功能效果不好？</span></p>
+<p><span style="font-size:14px;">答：不是的。一般来说，提高出价常会伴随ROI下降。转化CPC调价，在进行&ldquo;获取更多订单金额&rdquo;时，会尽可能通过流量优选，减少ROI的降幅。</span></p>
+<p>&nbsp;</p>
+<p><span style="color:#000000;"><span style="font-size:16px;"><strong><span style="background-color:#00ffff;">大促设置建议：</span></strong></span></span></p>
+<p><span style="font-size:14px;">18、大促建议怎么设置？</span></p>
+<p><span style="font-size:14px;">答：一般商家建议选择&ldquo;兼顾订单金额和ROI&rdquo;，对扩大销量强需求的商家选择&ldquo;获取更多订单金额&rdquo;；</span></p>
+<p><span style="font-size:14px;">溢价系数：建议设置70%-150%</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+            
+            
+            <div class="chapter-btn pt40">
+            
+ 
+                    
+                   <div class="pull-left">
+                <a href="https://jzt.jd.com/study/haitouusual/1965.jhtml"><span class="icon-arrowL"></span>首焦海投爆款场景介绍</a></div> 
+          
+        
+        
+                  <div class="pull-right"><a href="#">没有了<span class="icon-arrowR"></span></a></div>
+                                
+              
+            </div>
+            
+            
+            
+          </div>
+        </article>
+        <div class="pb40 pl60 pr60">
+        
+          <div class="bdt1-gray pb40">           
+
+          </div>
+          
+          
+          <!-- 评论相关的 -->
+          
+		            
+			            <dl class="rmpl">
+			            	<dt><span>暂无相关评论！</span></dt>
+			            	<div class="pt45 pb45"><div style="float: right;">
+共0条记录 1/1页
+&nbsp;<a disabled="disabled">首页</a> <a disabled="disabled">上一页</a>&nbsp;<a disabled="disabled">下一页</a> <a disabled="disabled">尾页</a>
+&nbsp;第<select onChange="if(this.value==1){location.href=encodeURI('1919.jhtml')}else{location.href=encodeURI('1919_'+this.value+'.jhtml')}this.disabled='disabled'">
+  <option value="1" selected="selected">1</option>
+</select>页
+</div></div>
+			            </dl>
+		            		  
+				<!-- 第2种方式end -->          
+	          <div class="module-comment clearfix">          	
+<div class="pinglun">
+	
+    
+    <div class="pltable">
+  	    <div  class="module-comment clearfix">
+   <!--   您尚未登录，请登录后发布评论！ 【<a href="javascript:void(0);" id="logBtn1">马上登录</a>】-->
+    <p>发表评论<span><i class="icon"></i>提示：您需要<a href="javascript:void(0);" id="logBtn1">登录</a>才能进行评论！</span></p>
+    <textarea placeholder="最多可输入200字"></textarea>
+    </div>
+    </div>
+</div>
+
+
+	          </div>
+          
+          
+
+        </div>
+      </div>
+      <!-- 左侧结束 -->
+      <!-- 右侧开始 -->
+      
+      <div class="panel-fixed" style="width: 300px;overflow: hidden;">
+        <div class="wrapper-small bg-white" style="float:none">
+          <div class="module-class">
+            <h6 class="bdt1-gray">相关课程</h6>
+            <div class="pt20 pl30 pr30">
+            
+
+ <ul class="list">
+ <li><a href="https://jzt.jd.com/study/haitouusual/2197.jhtml" title="经典海投“转化CPC调价功能”新客红包活动介绍" target="_blank">经典海投“转化CPC调价功能”新...</a></li>
+ <li><a href="https://jzt.jd.com/study/kuaicheproduct/1749.jhtml" title="快车tCPA常见问题答疑" target="_blank">快车tCPA常见问题答疑</a></li>
+ <li><a href="https://jzt.jd.com/study/haitouintro/1730.jhtml" title="经典海投“转化CPC调价”功能介绍" target="_blank">经典海投“转化CPC调价”功能介绍</a></li>
+ <li><a href="https://jzt.jd.com/study/toolsjzt/1437.jhtml" title="京准通常见问题答疑" target="_blank">京准通常见问题答疑</a></li>
+<!--  </div>-->
+ </ul>
+				
+              
+              
+            </div>
+          </div>
+
+        </div>
+        
+        <div class="wrapper-small mt20" style="height:320px">
+          <div class="feedback-cot small bg-white">
+          	<div class="">
+          		<div class="feedback-h" >
+          			
+          		</div>
+          		<div class="feedback-b" id="investigationform">
+          			<input type="hidden" id="contentId" value="1919"/>
+                    <input type="hidden" id="userNamehaha" value=""/>
+          		</div>
+          		<div class="blk20"></div>
+          	</div>
+          	
+	          
+          </div>
+
+        </div>
+      </div>
+      <!-- 右侧结束 -->
+    </div>
+  </div>
+</div>
+<!-- 主体内容结束 -->
+
+<!-- “是” “否” 弹窗 -->
+<script type="text/javascript">
+  $("#feedback-y-pop").hide();
+  $("#feedback-n-pop").hide();
+  $("#feedback-yes").click(function(){
+    $("#feedback-y-pop").show();
+  });
+  $("#feedback-no").click(function(){
+    $("#feedback-n-pop").show();
+  });
+</script>
+
+<!-- 右侧 随鼠标滚动位置固定 -->
+<script type="text/javascript">
+    $(window).scroll(function(){
+        var st = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
+        if(st > 140) {
+          $(".panel-fixed").css({position:"fixed",left:"50%",top:"0",marginLeft:"285px",marginTop:"30px"});
+        }
+        else{
+          $(".panel-fixed").css({position:"relative",left:"0%",top:"0",marginLeft:"30px",marginTop:"0px"});
+        }
+    });
+</script>
+
+<!-- 页尾 -->
+
+  <!-- 未登录弹窗开始 -->
+    <div class="modal fade" id="s6" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+      <div class="modal-dialog small">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal" aria-hidden="true"><img src="/study/r/cms/www/learn_new/img/close.png"></a>
+          </div>
+          <div class="modal-body">
+            <div class="font18 yellow t-c pt20 pb10">您尚未登录，不能进行评论。</div>
+          </div>
+          <div class="modal-footer">
+            <div class="pb30 t-c">
+              <a class="btn-b btn-yellow"  id="motai_login">立即登录</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 未登录弹窗结束 --><script type="text/javascript">
+$(document).ready(function() {
+  // 返回顶部
+  $('#back_top').click(function() {
+    $("html, body").animate({
+      scrollTop: 0
+    }, 120);
+  });
+});
+</script>
+<div class="module-navbar">
+  <a href="javascript:void(0)" target="_blank">
+      <img src="/study/r/cms/www/learn_new/img/navbar6.png">
+      <div class="phone">
+      <p>京准通APP下载</p>
+      <img src="/study/r/cms/www/learn_new/img/jzt-app-download.png">
+    </div>
+  </a>
+  <a href="javascript:void(0)" clstag="pageclick|keycount|201610114|1">
+  	<img src="/study/r/cms/www/learn_new/img/navbar2.png">
+  	<div class="wx">
+  		<p>京准通微信订阅号</p>
+  		<img src="/study/r/cms/www/learn_new/img/navbar-jzt-code.png">
+  		<p>京点书院微信公众号</p>
+  		<img src="/study/r/cms/www/learn_new/img/navbar-jdsy-code.png">
+  	</div>
+  </a>
+  <a href="//weibo.com/jztjd" clstag="pageclick|keycount|201610114|2" target="_blank"><img src="/study/r/cms/www/learn_new/img/navbar3.png"></a>
+  <a href="//jzt.jd.com/opt/message" clstag="pageclick|keycount|201610114|3"  target="_blank"><img src="/study/r/cms/www/learn_new/img/navbar4.png"></a>
+  <a href="javascript:void(0)"  clstag="pageclick|keycount|201610114|4"  id="back_top"><img src="/study/r/cms/www/learn_new/img/navbar5.png"></a>
+</div>
+
+<!--  
+<div class="bg-gray3c">
+  <div class="wrapper footer">
+    <div class="footer-con footer-left pull-left">
+      <div class="font18 pb30">了解更多</div>
+      <div class="footer-nav">
+        <a href="//jzt.jd.com/gw/contact/index.jhtml" target="_blank"  clstag="pageclick|keycount|bottom_201610118|1">联系我们</a>
+        <a href="//jzt.jd.com/gw/about/index.jhtml" target="_blank" clstag="pageclick|keycount|bottom_201610118|2">关于我们</a>
+        <a href="//jzt.jd.com/gw/job/index.jhtml" target="_blank" clstag="pageclick|keycount|bottom_201610118|3">招聘英才</a>
+        <a href="//jzt.jd.com/doc/privacy.html" target="_blank" clstag="pageclick|keycount|bottom_201610118|4">隐私条款</a>
+      </div>
+      <p class="pt10">Copyright 2004-2015 京东JD.com 版权所有</p>
+    </div>
+    <div class="footer-con footer-right pull-left">
+      <div class="font18 pb30">友情链接</div>
+      <div class="footer-link">
+      
+         <!-- ctgId：链接类别 -->
+       <!--         </div>
+    </div>
+  </div>
+</div>
+-->
+<!-- 友情链接开始 -->
+<div class="bg-gray3c">
+  <div class="wrapper footer">
+    <div class="footer-con">
+      <div class="clearfix">
+        <div class="footer-nav">
+          <dl>
+            <dt>京准通官网</dt>
+            <dd><a href="//jzt.jd.com/gw/platformadvantage.htm" target="_blank">平台介绍</a></dd>
+            <dd><a href="//jzt.jd.com/gw/case/index.htm" target="_blank">案例分享</a></dd>
+            <dd><a href="//jzt.jd.com/gw/teamintroduction.jhtml" target="_blank">关于我们</a></dd>
+            <dd><a href="//jzt.jd.com/gw/news/index.htm" target="_blank">资讯</a></dd>
+          </dl>
+          <dl>
+            <dt>在线学习</dt>
+            <dd><a href="//jzt.jd.com/study/jingzhuntong/index.jhtml" target="_blank">自学教程</a></dd>
+            <dd><a href="//jzt.jd.com/study/online/index.jhtml" target="_blank">京点书院</a></dd>
+            <dd><a href="//jzt.jd.com/study/charging/index.jhtml" target="_blank">常见问题</a></dd>
+            <dd><a href="//mjbbs.jd.com/forum-96-1.html" target="_blank">论坛</a></dd>
+          </dl>
+          <dl>
+            <dt>营销产品</dt>
+            <dd><a href="//jzt.jd.com/gw/jdkchome/index.jhtml" target="_blank">京东快车</a></dd>
+            <dd><a href="//jzt.jd.com/edu/edu_home.shtml" target="_blank">京东直投</a></dd>
+            <dd><a href="//jzt.jd.com/gw/jxzwhome/index.jhtml" target="_blank">京选展位</a></dd>
+            <dd><a href="//jzt.jd.com/gw/jtkhome/index.jhtml" target="_blank">京挑客</a></dd>
+          </dl>
+          <dl>
+            <dt>了解更多</dt>
+            <dd><a href="//jzt.jd.com/gw/teamintroduction.jhtml#contactus" target="_blank">联系我们</a></dd>
+            <dd><a href="//jzt.jd.com/gw/job/index.jhtml" target="_blank">招聘英才</a></dd>
+            <dd><a href="//jzt.jd.com/doc/privacy.html" target="_blank">隐私条款</a></dd>
+          </dl>
+          
+              <!-- ctgId：链接类别 -->              
+               <dl>
+                   <dt>友情链接</dt>
+		                     <dd><a href="http://www.jd.com/" onclick="$.get('/study/friendlink_view.jspx?id=7')" target="_blank" index="0" >京东商城</a></dd> 
+		                     <dd><a href="http://jr.jd.com/?from=jrad_1830098&loc=2" onclick="$.get('/study/friendlink_view.jspx?id=10')" target="_blank" index="1" >京东金融</a></dd> 
+		                     <dd><a href="https://media.jd.com/" onclick="$.get('/study/friendlink_view.jspx?id=13')" target="_blank" index="2" >京东联盟</a></dd> 
+		                     <dd><a href="https://wx.jdcloud.com/" onclick="$.get('/study/friendlink_view.jspx?id=12')" target="_blank" index="3" >京东万象</a></dd> 
+               </dl> 
+          
+             <!-- ctgId：链接类别 -->
+                      <dl>
+	                  <dt>&nbsp;</dt>
+                       <dd><a href="http://ft.jd.com" onclick="$.get('/study/friendlink_view.jspx?id=14')" target="_blank" index="4" >企业金融服务</a></dd> 
+              </dl>   
+          
+            <!-- ctgId：链接类别 -->
+                      <dl>
+	                  <dt>&nbsp;</dt>
+              </dl>   
+              <!-- ctgId：链接类别 -->
+                      <dl>
+	                  <dt>&nbsp;</dt>
+              </dl>   
+        </div>
+        <div class="footer-code">
+          <div class="title">扫一扫，关注京准通</div>
+          <div class="clearfix">
+              <div class="qr-code qr-code-jdsy">
+                  <div class="mt10">
+                    <img src="/study/r/cms/www/learn_new/img/qr_code-learn.png" alt="">
+                  </div>
+                  <div class="mt10">
+                    <span>学习中心微信公众号</span>
+                  </div>
+                </div>
+                <div class="qr-code">
+                  <div class="mt10">
+                    <img src="/study/r/cms/www/learn_new/img/qr_code-jzt.png" alt="">
+                  </div>
+                  <div class="mt10">
+                    <span>京准通微信订阅号</span>
+                  </div>
+                </div>
+                <div class="qr-code">
+                  <div class="mt10">
+                    <img src="/study/r/cms/www/learn_new/img/qr_code-jpdl.jpg" alt="">
+                  </div>
+                  <div class="mt10">
+                    <span>京牌代理官方微信号</span>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="footer-line"></div>
+    <p class="footer-bq">Copyright 2004-2018 京东JD.com 版权所有</p>
+  </div> 
+</div>
+<!-- 友情链接结束 -->
+<!-- 埋点代码start -->
+<script type="text/javascript">
+   var jaq = jaq || [];
+   jaq.push(['account','JA2016_113469']);
+   jaq.push(['domain','jzt.jd.com/study/']);
+   jaq.push(['topic','_topic_']); //topic
+   (function() {
+    var ja = document.createElement('script'); ja.type = 'text/javascript'; ja.async = true;
+    ja.src = ('https:' == document.location.protocol ? 'https://wlssl' : 'http://wl') + '.jd.com/joya.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ja, s);
+   })();
+</script>
+<script>
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+<script>
+    !!window.FEM && FEM.init({
+        product_name: 'jzt-study',
+        single: false //single: Boolean 设置为true，表明是单页面应用，默认false为多页应用 【v1.3版本增加】
+    });
+</script>
+</body>
+<script type="text/javascript" src="/r/cms/www/learn_new/js/investigation_form.js"></script>
+</html>
+
